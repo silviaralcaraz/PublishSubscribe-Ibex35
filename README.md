@@ -4,6 +4,8 @@
  
  Application that use the model Publish-Subscribe to get and generate alarms on the values of Ibex 35.
 
+ The application use data from  http://www.bolsademadrid.es but, if this site is down, they will be extrated of the static page "page.html".
+
  **Features**
 - Generate alarms (you must indicate the name of the company in uppercases, the value of the alarm and the type of the alarm: buy or sell).
 - Delete alarms (same indications)
